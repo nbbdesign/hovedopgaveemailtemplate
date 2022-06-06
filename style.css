@@ -1,5 +1,6 @@
 * {
   scroll-behavior: smooth;
+  font-family: "Heebo";
 }
 
 body {
@@ -31,12 +32,11 @@ img{
   margin: 0 auto;
   max-width: 600px;
   border-spacing: 0;
-  font-family: "Heebo" sans-serif;
   color: #171a1b;
 }
 .topborder{
   height: 8px;
-  background-color: #E9C46A;
+  background-color: #053935;
 }
 .logosection{
   width: 100%;
@@ -46,7 +46,7 @@ img{
 }
 .icons{
   width: 30px;
-  padding: 2px;
+  padding-left: 1px;
   padding-top: 5px;
 }
 .two-columns{
@@ -74,6 +74,54 @@ img{
 }
 .threecolumnsection{
   width: 100%;
+}
+.about-us, .benefits, .events{
+  width: 130px;
+  max-width: 100px;
+}
+.abouth1, .benefitsh1, .eventsh1{
+  font-weight: bold;
+  font-size: 17px;
+  color: #E9C46A;
+}
+.three-columns{
+  text-align: center;
+  font-size: 0;
+  padding: 15px 0px 25px;
+}
+.three-columns .column{
+  width: 100%;
+  max-width: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+.three-columns .padding{
+  padding: 15px;
+}
+.three-columns .content{
+  font-size: 15px;
+  line-height: 20px;
+  padding: 0px 5px;
+}
+.footersection{
+  background-color: #053935;
+}
+.footer {
+  width: 100%;
+}
+.footer-column{
+  text-align: center;
+  padding: 45px 20px;
+  color: #ffffff;
+}
+.cwlogofoot{
+  width: 180px;
+}
+.footertitle{
+  padding: 10px;
+}
+.footertext{
+  padding: 10px;
 }
 
 @media screen and (max-width: 600px) {
